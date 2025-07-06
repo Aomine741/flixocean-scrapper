@@ -1,7 +1,0 @@
-services:
-  - type: background
-    name: flixocean-scraper
-    runtime: python
-    plan: free
-    buildCommand: pip install -r requirements.txt
-    startCommand: python scraper.py
