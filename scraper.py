@@ -4,7 +4,7 @@ from github import Github
 
 GP_API = os.environ.get("GPLINK_API")
 GITHUB_TOKEN = os.environ.get("GH_TOKEN")
-REPO = os.environ.get("GITHUB_REPO")
+REPO = os.environ.get("REPO_NAME")
 
 headers = {'User-Agent': 'Mozilla/5.0'}
 
